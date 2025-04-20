@@ -1,0 +1,25 @@
+<section class="contact" id="contact">
+    <div class="wrapper">
+        <h2 class="title">Kontakt</h2>
+        <p class="contact__call-to-action">Skontaktuj się z nami, aby otrzymać darmową konsultację i wycenę!</p>
+        <form action="mail.php" method="post" class="contact__form">
+            <div class="contact__form-box">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="contact__form-box">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="contact__form-box">
+                <label for="msg">Wiadomość:</label>
+                <textarea name="msg" id="msg" required></textarea>
+            </div>
+
+            <p class="contact__form-msg-status"></p>
+            <button class="contact__form-btn">Wyślij</button>
+        </form>
+    </div>
+</section>
